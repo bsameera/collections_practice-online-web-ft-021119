@@ -46,6 +46,7 @@ def kesha_maker(arr)
   output = []
   arr.each do |ele|
     ele[2] = '$'
+    output << ele
   end 
   output
 end 
