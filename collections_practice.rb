@@ -59,3 +59,10 @@ def find_a(arr)
   arr.find_all { |x| x.start_with?('a') }
 end 
 
+def sum_array(arr) 
+  
+end 
+
+def add_s(arr) 
+  
+end 
