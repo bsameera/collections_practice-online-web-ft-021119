@@ -50,3 +50,9 @@ def kesha_maker(arr)
   end 
   output
 end 
+
+def find_a(arr)
+  arr.find_all do |x|
+    x.start_with?('a')
+  end 
+end 
