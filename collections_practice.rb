@@ -52,7 +52,5 @@ def kesha_maker(arr)
 end 
 
 def find_a(arr)
-  arr.find_all do |x|
-    x.start_with?('a')
-  end 
+  arr.find_all { |x| x.start_with?('a') }
 end 
