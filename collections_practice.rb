@@ -34,7 +34,7 @@ def swap_elements(arr)
   arr
 end 
 
-def swap_elements_from_to()
+def swap_elements_from_to(array, index, destination_index)
   
 end 
 
