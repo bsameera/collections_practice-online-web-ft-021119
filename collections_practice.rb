@@ -33,3 +33,7 @@ def swap_elements(arr)
   arr[2] = second
   arr
 end 
+
+def reverse_array(arr) 
+  arr.reverse 
+end 
