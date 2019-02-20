@@ -60,7 +60,7 @@ def find_a(arr)
 end 
 
 def sum_array(arr) 
-  
+  return arr.inject
 end 
 
 def add_s(arr) 
