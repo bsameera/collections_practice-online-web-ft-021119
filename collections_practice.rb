@@ -58,3 +58,4 @@ end
 def find_a(arr)
   arr.find_all { |x| x.start_with?('a') }
 end 
+
