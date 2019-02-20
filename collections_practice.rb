@@ -60,7 +60,8 @@ def find_a(arr)
 end 
 
 def sum_array(arr) 
-  return arr.inject
+  sum = arr.inject { |sum, x| sum + x }
+  sum 
 end 
 
 def add_s(arr) 
