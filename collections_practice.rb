@@ -13,3 +13,15 @@ def sort_array_desc(arr)
     end
   end
 end 
+
+def sort_array_char_count(arr)
+  arr.sort do |a, b|
+    if a.length == b
+      0
+    elsif a < b
+      -1
+    elsif a > b
+      1
+    end
+  end
+end 
